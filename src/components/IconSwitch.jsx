@@ -1,7 +1,7 @@
 import "../App.css";
 
-export const IconSwitch = ({icon, onSwich}) => {
+export const IconSwitch = ({icon, onSwitch}) => {
     return (
-        <span className="material-icons" onClick={onSwich}>{icon}</span>
+        <span className="material-icons" onClick={() => onSwitch(icon)}>{icon}</span>
     );
 }

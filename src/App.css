@@ -1,36 +1,3 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
-.conteiner{
-  display: block;
-}
 
-.cardList {
-  display: flex;
-}
-
-.cardList_Img {
-
-}
-
-.cardList_Name {
-
-}
-
-.cardList_Color {
-}
-
-.cardList_Price {
-
-}
-
-.material-icons{
-  cursor: pointer;
-}
-
-.cardList_Button {
-  text-transform: uppercase;
-  font-family:'Material Icons';
-  padding: 5px 5px 5px 5px;
-  border: 1px red solid;
-  border-radius: 10%;
-}
