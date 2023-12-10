@@ -7,15 +7,8 @@ import { CardsView } from "./CardsView";
 export const Store = () => {
     const [icon, setIcon] = useState('view_list');
 
-    const onSwitch = () => {
-        if(icon === 'view_list') {
-            setIcon('view_module');
-            console.log(icon);
-        }
-        else {
-            setIcon('view_list');
-            console.log(icon);
-        }
+    const onSwitch = (icon) => {
+        icon === 'view_list' ? setIcon('cards_list') :  setIcon('view_list')
     }
 
     return (
