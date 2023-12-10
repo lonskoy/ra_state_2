@@ -1,3 +1,3 @@
-export const CardsView = (products) => {
+export const CardsView = ({products}) => {
     
 }

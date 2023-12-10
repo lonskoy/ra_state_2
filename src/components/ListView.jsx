@@ -1,4 +1,4 @@
-export const ListView = (products) => {
+export const ListView = ({products}) => {
     return (
     products.map((item, index) => {
             <div className="cardList" key={index}>

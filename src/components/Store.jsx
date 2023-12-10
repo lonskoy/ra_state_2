@@ -9,11 +9,12 @@ export const Store = () => {
 
     const onSwitch = (icon) => {
         icon === 'view_list' ? setIcon('cards_list') :  setIcon('view_list')
+        console.log(icon);
     }
 
     return (
         <div className="conteiner">
-            <IconSwitch icon={icon} onSwitch={onSwitch}/>
+            <IconSwitch icon={icon} onSwitch={() => onSwitch(icon)}/>
             {icon === 'view_list' ? <ListView products={products} /> : <CardsView products={products} /> }
         </div>
     );
