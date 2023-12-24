@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
-.conteiner {
-    display: block;
-  }
-  
+
   .conteiner_prod{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid
   }
   
   .cardList {
@@ -17,7 +13,7 @@
   }
   
   .cardConteiner {
-    display: table;
+    display: flex;
   }
   
   .cardList_Img {

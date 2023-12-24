@@ -1,5 +1,6 @@
 
-import "../Cards.css";
+import "../css/Cards.css";
+import "../css/App.css"
 
 export const CardsView = ({ products }) => {
     return (

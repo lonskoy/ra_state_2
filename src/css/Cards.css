@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+  .conteiner_prod{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .cardList {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+  
+  }
+  
+  .cardConteiner {
+    display: table;
+  }
+  
+  .cardList_Img {
+    width: 300px;
+    height: auto;
+  
+  }
+  
+  .cardList_Name {
+    display: table;
+  
+  }
+  
+  .cardList_Color {
+  }
+  
+  .cardList_Price {
+  
+  }
+  
+  .material-icons{
+    cursor: pointer;
+  }
+  
+  .cardList_footer {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .cardList_Button {
+    text-transform: uppercase;
+    font-family:'Material Icons';
+    padding: 5px 5px 5px 5px;
+    border: 1px red solid;
+    border-radius: 20%;
+  }
+  

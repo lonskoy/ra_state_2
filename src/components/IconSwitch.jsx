@@ -1,4 +1,4 @@
-import "../App.css";
+import "../css/App.css";
 
 export const IconSwitch = ({icon, onSwitch}) => {
     return (
