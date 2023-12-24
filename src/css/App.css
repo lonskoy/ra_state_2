@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 .conteiner {
-    display: block;
+    display: table;
+    padding: 50px;
+
   }
+
+.block_Conteiner {
+display: flex;
+flex-wrap: wrap;
+  }
+
+.list_Conteiner {
+  display: grid;
+}
 

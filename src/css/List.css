@@ -1,33 +1,33 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
-  
-  .cardList {
-    display: grid;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    padding: 20px;
-  
-  }
-  
-  .cardConteiner {
+
+  .list_Prod {
     display: grid;
   }
+
+  .list_Conteiner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    height: 150px;
   
-  .cardList_Img {
-    width: 300px;
+  } 
+  
+  .list_Img {
+    width: auto;
     height: auto;
   
   }
   
-  .cardList_Name {
+  .list_Name {
     display: table;
   
   }
   
-  .cardList_Color {
+  .list_Color {
   }
   
-  .cardList_Price {
+  .list_Price {
   
   }
   
@@ -35,12 +35,12 @@
     cursor: pointer;
   }
   
-  .cardList_footer {
+  .list_footer {
     display: flex;
     justify-content: space-around;
   }
   
-  .cardList_Button {
+  .list_Button {
     text-transform: uppercase;
     font-family:'Material Icons';
     padding: 5px 5px 5px 5px;

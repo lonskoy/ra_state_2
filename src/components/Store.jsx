@@ -15,9 +15,7 @@ export const Store = () => {
     return (
         < div className="conteiner">
             <IconSwitch icon={icon} onSwitch={onSwitch} />
-            <div className="conteiner_prod">
-                {icon === 'view_list' ? <ListView products={products} /> : <CardsView products={products} />}
-            </div>
+                {icon === 'view_list' ?  < CardsView products={products} />  : <ListView products={products} />}
         </div>
     );
 
