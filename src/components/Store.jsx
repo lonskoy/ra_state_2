@@ -3,7 +3,6 @@ import { products } from "../data"
 import { IconSwitch } from "./IconSwitch"
 import { ListView } from "./ListView";
 import { CardsView } from "./CardsView";
-import "../css/Cards.css";
 
 export const Store = () => {
     const [icon, setIcon] = useState('view_list');
